@@ -37,7 +37,7 @@ public class Calendar {
 	 		month = 1;
 	 		year++;
 	 		}
-	 		if (month == 2 && dayOfMonth == 1 && isLeapYear(year)) {
+	 		if (month == 2 && isLeapYear(year)) {
 				dayOfMonth = 29;
         	}
 	 	}
