@@ -82,9 +82,8 @@ public class LoanCalc {
 	private static double endBalance(double loan, double rate, int n, double payment) {
 		// Replace the following statement with your code
 	    double rest = loan;
-	    double x = payment;
 	    for (int i = 0; i < n; i++ ) {
-	    	rest = (rest - x) * (1 + rate / 100);
+	    	rest = (rest - payment) * (1 + rate / 100);
 	    	//loan = rest;
 	    }
     	return rest;

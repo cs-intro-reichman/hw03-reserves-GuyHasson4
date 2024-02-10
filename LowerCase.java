@@ -1,7 +1,10 @@
 /** String processing exercise 1. */
 public class LowerCase {
     public static void main(String[] args) {  
-        String str = args[0];
+        String str = "";
+        if (args.length > 0){
+            str = args[0];
+        }
         System.out.println(lowerCase(str));
     }
 
